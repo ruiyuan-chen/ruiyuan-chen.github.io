@@ -101,6 +101,13 @@
   nav.subnav .n { font-variant-caps: normal; font-variant-numeric: lining-nums; letter-spacing: 0; font-size: 15px; margin-left: 4px; color: var(--muted); }
   @media (max-width: 680px) { nav.subnav { gap: 4px 18px; } nav.subnav a { font-size: 17px; } }
   .page-lede { margin: -6px 0 18px; color: var(--muted); font-style: italic; }
+  h3.first { margin-top: 0; }
+  .award { margin: -4px 0 30px; }
+  .award .lbl { font-variant-caps: all-small-caps; letter-spacing: .12em; font-size: 17px; font-weight: 500; color: var(--muted); margin-right: 12px; }
+  .teach .r3 { flex-basis: 100%; color: var(--muted); font-size: 17.5px; line-height: 1.45; margin-top: 2px; max-width: 40em; }
+  .teach .syl { font-variant-caps: all-small-caps; letter-spacing: .08em; margin-left: 4px; white-space: nowrap; }
+  .teach .syl.solo { margin-left: 0; }
+  @media (max-width: 680px) { .rows li { flex-direction: column; gap: 1px; } }
 
   /* research statement */
   .statement { font-size: 25px; line-height: 1.38; margin: 0 0 26px; color: var(--text); text-wrap: balance; max-width: 34em; }
